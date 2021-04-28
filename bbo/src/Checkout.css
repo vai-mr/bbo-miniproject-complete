@@ -1,0 +1,27 @@
+.checkout {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px;
+  background-color: rgb(250, 222, 191);
+  min-height: 600px;
+  height: max-content;
+  
+
+}
+
+.checkout_left{
+  flex:0.7;
+}
+
+.checkout_right{
+  flex:0.3;
+  height: 50%;
+}
+
+.checkout_title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 4px solid rgb(255, 255, 255);
+  text-align: left;
+  font-size: 200%;
+}

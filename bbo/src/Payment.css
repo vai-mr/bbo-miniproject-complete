@@ -1,0 +1,115 @@
+.payment {
+  background-color: rgb(250, 222, 191);
+}
+
+.payment_container > h1 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 400;
+  background-color: rgb(234, 237, 237);
+  border-bottom: 1px solid lightgray;
+  margin-top:0px;
+}
+
+.payment_priceContainer{
+    padding : 20px 20px;
+    background-color: #e4e3d5;
+    border: 3px solid #fdfdfd;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-top:20px;
+    text-align: left;
+    height:300px;
+}
+
+
+
+.payment_container > h1 a {
+  text-decoration: none;
+}
+
+.payment_section {
+  display: flex;
+  padding: 20px;
+  margin: 0 20px;
+  border-bottom: 3px solid rgb(250, 249, 249);
+}
+
+.payment_title {
+  flex: 0.2;
+  text-align:left;
+}
+
+
+.payment_address{
+  flex: 0.8;
+  text-align: left;
+  background-color: #e4e3d5;
+  border: 3px solid #fdfdfd;
+  border-radius: 3px;
+  width:fit-content;
+  padding-left: 20px;
+  margin-left:2%;
+}
+
+.payment_items
+{
+  flex: 0.8;
+
+}
+
+
+.line{
+  display:flex;
+  
+}
+
+.form_label{
+  float: left;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  text-align:left;
+  display: block;
+  width: 100%;
+}
+
+.form_element{
+  display:block;
+  padding-top: 10px; 
+  padding-bottom: 10px;  
+}
+
+.obj{
+  margin-right:25px;
+}
+
+input[type=text]{
+  border:1px solid rgb(184, 174, 174);
+  margin-right: 10px;
+  width: 100%;
+}
+
+.payment_details{
+  background-color: #e4e3d5;
+  border: 3px solid #fdfdfd;
+  border-radius: 3px;
+  flex:0.8;
+  padding:30px 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left:20%;
+  margin-right:20%;
+  border-radius: 5px;
+  font-size: 20px;
+
+}
+
+.pay_button{
+  margin-top: 5px;
+  background: #a05f0a;
+  height: 35px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  color: #faf9f9;
+  padding: 10px 10px;
+}

@@ -1,0 +1,9 @@
+.orders {
+    padding: 20px 80px;
+    background-color: #e4e3d5;
+    min-height: 600px;
+}
+
+.orders > h1 {
+    margin: 30px 0;
+}

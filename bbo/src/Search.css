@@ -1,0 +1,21 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    background-color: rgb(250, 222, 191);
+    min-height: 600px;
+    height: max-content;
+    
+  
+  }
+  
+  
+  
+  .search_title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 4px solid rgb(255, 255, 255);
+    text-align: left;
+    font-size: 200%;
+  }
+  

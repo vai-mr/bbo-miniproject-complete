@@ -1,0 +1,33 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:80%;
+    height:fit-content;
+    padding : 20px 20px;
+    background-color: #e4e3d5;
+    border: 3px solid #fdfdfd;
+    border-radius: 3px;
+    margin-left: 20px;
+    text-align: left;
+    margin-right: 5px;
+}
+
+.title{
+    font-size: 170%;
+}
+.subtotal > button {
+    width: 60%;
+    height: fit-content;
+    margin-top: 10px;
+    background: #a05f0a;
+    margin-top: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #faf9f9;
+    margin-left:20%;
+    margin-right: 20%;
+    font-size: 130%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
